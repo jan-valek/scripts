@@ -9,10 +9,10 @@ It will update system set user membership in docker group and installs following
 
 Also Helm version is hardcoded in script so check it out before using.
 
-## Prerequisities 
+## Prerequisites  
 
-* Docker desktop for windows
-* Ubuntu 20.04LTS in wsl 
+* Docker desktop for Windows
+* Ubuntu 20.04LTS in WSL 
 * Docker check that WSL integration is enabled for Ubuntu 20.04LTS
 
 ## How to use
