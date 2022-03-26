@@ -17,10 +17,25 @@ Also Helm version is hardcoded in script so check it out before using.
 
 ## How to use
 
+Clone repository and switch to it:
+
 ```
 git clone https://github.com/jan-valek/scripts
 cd scripts
-sudo chmod +x install_minikube.sh
+```
+
+To install Minikube and basic tooling
+
+```
+chmod +x install_minikube.sh
 sudo ./install_minikube.sh
 ```
+
+To install dotnet latest LTS
+
+```
+chmod +x install_dotnet.sh
+sudo ./install_dotnet.sh
+```
+
 
