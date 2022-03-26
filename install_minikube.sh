@@ -24,4 +24,12 @@ mv linux-amd64/helm /usr/local/bin/helm
 rm ${HELM_VERSION} 
 rm -rf linux-amd64
 
+#install gh tool
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+apt update
+apt install gh
+
+
+
 echo "Please logout to apply changes"
