@@ -14,3 +14,13 @@ Also Helm version is hardcoded in script so check it out before using.
 * Docker desktop for windows
 * Ubuntu 20.04LTS in wsl 
 * Docker check that WSL integration is enabled for Ubuntu 20.04LTS
+
+## How to use
+
+```
+git clone https://github.com/jan-valek/scripts
+cd scripts
+sudo chmod +x install_minikube.sh
+sudo ./install_minikube.sh
+```
+
