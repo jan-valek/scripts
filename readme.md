@@ -38,4 +38,11 @@ chmod +x install_dotnet.sh
 sudo ./install_dotnet.sh
 ```
 
+To run port forwarding on Postgresql (you need to change INSTANCE_NAME variable)
+
+```
+chmod +x ./connect_postresql.sh
+./connect_postresql.sh
+```
+
 
